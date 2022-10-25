@@ -1,0 +1,2 @@
+import{T as t}from"./index.d64b5aa2.js";import"./index.fe3eecd6.js";import"./iframe.47ad457d.js";import"./index.9505f817.js";import"./jsx-runtime.09e1c354.js";const i={title:"Typography/Text",component:t,args:{size:"md",children:"Text Example"},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:"inline-radio"}}},l={},m={args:{children:"Strong Text Example",as:"strong"}},a=["Primary","CustomTag"];export{m as CustomTag,l as Primary,a as __namedExportsOrder,i as default};
+//# sourceMappingURL=Text.stories.bd84d1f2.js.map
