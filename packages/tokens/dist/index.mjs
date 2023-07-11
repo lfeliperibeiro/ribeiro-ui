@@ -10,10 +10,12 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
-  green300: "#00B37E",
-  green500: "#00875F",
-  green700: "#015F43",
-  green900: "#00291D"
+  blue300: "#A0DDFF",
+  blue900: "#758ECD",
+  cyan700: "#C1CEFE",
+  cyan400: "#7189FF",
+  purple500: "#624CAB",
+  purple700: "#8573BF"
 };
 
 // src/font-sizes.ts

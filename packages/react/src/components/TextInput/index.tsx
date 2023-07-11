@@ -1,15 +1,21 @@
-import { TextInputContainer, Prefix, Input } from './styles'
+import { TextInputContainer, Input, InputLabel } from './styles'
 import { ComponentProps } from 'react'
 
 export interface TextInputProps extends ComponentProps<typeof Input> {
-  prefix?: string
+  labelId: string
+  label: string
 }
 
-export function TextInput({ prefix, ...props }: TextInputProps) {
+export function TextInput({
+  prefix,
+  labelId,
+  label,
+  ...props
+}: TextInputProps) {
   return (
     <TextInputContainer>
-      {!!prefix && <Prefix>{prefix}</Prefix>}
-      <Input {...props} />
+      <Input id={labelId} {...props} required />
+      <InputLabel htmlFor={labelId}>{label}</InputLabel>
     </TextInputContainer>
   )
 }

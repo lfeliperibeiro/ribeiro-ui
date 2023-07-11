@@ -9,10 +9,12 @@ declare const colors: {
     gray700: string;
     gray800: string;
     gray900: string;
-    green300: string;
-    green500: string;
-    green700: string;
-    green900: string;
+    blue300: string;
+    blue900: string;
+    cyan700: string;
+    cyan400: string;
+    purple500: string;
+    purple700: string;
 };
 
 declare const fontSizes: {

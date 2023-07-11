@@ -16,7 +16,7 @@ export const TextArea = styled('textarea', {
   minHeight: 80,
 
   '&:focus': {
-    borderColor: '$green300',
+    borderColor: '$cyan700',
     outline: 'none',
   },
 
