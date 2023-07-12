@@ -7,7 +7,7 @@ interface TokensGridProps {
 
 export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
   return (
-    <table className={'tokens-grid'}>
+    <table className="tokens-grid">
       <thead>
         <tr>
           <th>Name</th>
@@ -15,6 +15,7 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
           {hasRemValue && <th>Pixels</th>}
         </tr>
       </thead>
+
       <tbody>
         {Object.entries(tokens).map(([key, value]) => {
           return (

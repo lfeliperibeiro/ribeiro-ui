@@ -1,4 +1,4 @@
 {
-  "extends": "@ribeiro-ui/ts-config/base.json",
-  "include": ["src"],
+  "extends": "@ignite-ui/ts-config/base.json",
+  "include": ["src"]
 }

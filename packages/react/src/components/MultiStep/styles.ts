@@ -7,7 +7,7 @@ export const Label = styled(Text, {
   color: '$gray200',
 
   defaultVariants: {
-    size: '$xs',
+    size: 'xs',
   },
 })
 
@@ -26,7 +26,7 @@ export const Step = styled('div', {
   variants: {
     active: {
       true: {
-        backgroundColor: '$cyan700',
+        backgroundColor: '$gray100',
       },
     },
   },

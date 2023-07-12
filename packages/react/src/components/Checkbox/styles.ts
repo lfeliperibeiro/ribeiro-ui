@@ -1,6 +1,5 @@
 import * as Checkbox from '@radix-ui/react-checkbox'
-import { styled } from '../../styles'
-import { keyframes } from '@stitches/react'
+import { styled, keyframes } from '../../styles'
 
 export const CheckboxContainer = styled(Checkbox.Root, {
   all: 'unset',
@@ -13,16 +12,16 @@ export const CheckboxContainer = styled(Checkbox.Root, {
   overflow: 'hidden',
   boxSizing: 'border-box',
   display: 'flex',
-  alignItems: 'center',
   justifyContent: 'center',
-  border: '2px solid $cyan400',
+  alignItems: 'center',
+  border: '2px solid $gray900',
 
   '&[data-state="checked"]': {
-    backgroundColor: '$blue900',
+    backgroundColor: '$ignite300',
   },
 
-  '&:focus': {
-    border: '2px solid $blue900',
+  '&:focus, &[data-state="checked"]': {
+    border: '2px solid $ignite300',
   },
 })
 

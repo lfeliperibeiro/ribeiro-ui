@@ -1,25 +1,7 @@
-# @ribeiro-ui/react
+# @ignite-ui/react
 
-## 5.0.0
+## 1.0.1
 
-### Major Changes
+### Patch Changes
 
-- fix
-
-## 4.0.0
-
-### Major Changes
-
-- Fix
-
-## 3.0.0
-
-### Major Changes
-
-- Change default colors
-
-## 2.0.0
-
-### Major Changes
-
-- Add all components
+- Add option to pass reference to TextInput and adjust some styles

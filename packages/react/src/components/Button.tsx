@@ -1,19 +1,22 @@
-import { styled } from '../styles'
 import { ComponentProps, ElementType } from 'react'
+import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
   borderRadius: '$sm',
   fontSize: '$sm',
+  fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
   padding: '0 $4',
+
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   gap: '$2',
+
   cursor: 'pointer',
 
   svg: {
@@ -25,14 +28,18 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
   },
 
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
+  },
+
   variants: {
     variant: {
       primary: {
         color: '$white',
-        backgroundColor: '$purple500',
+        background: '$ignite500',
 
         '&:not(:disabled):hover': {
-          backgroundColor: '$purple700',
+          background: '$ignite300',
         },
 
         '&:disabled': {
@@ -41,11 +48,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$purple500',
-        border: '2px solid $purple500',
+        color: '$ignite300',
+        border: '2px solid $ignite500',
 
         '&:not(:disabled):hover': {
-          backgroundColor: '$purple500',
+          background: '$ignite500',
           color: '$white',
         },
 
@@ -72,11 +79,13 @@ export const Button = styled('button', {
       sm: {
         height: 38,
       },
+
       md: {
         height: 46,
       },
     },
   },
+
   defaultVariants: {
     variant: 'primary',
     size: 'md',
