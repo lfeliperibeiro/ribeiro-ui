@@ -1,5 +1,11 @@
 # @ribeiro-ui/eslint-config
 
+## 4.0.0
+
+### Major Changes
+
+- fix
+
 ## 3.0.0
 
 ### Major Changes
