@@ -1,0 +1,2 @@
+import{A as t}from"./index.db598e8c.js";import"./index.56eba594.js";import"./iframe.2c8e000f.js";import"./index.a7a9e199.js";import"./jsx-runtime.77e4972d.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/lfeliperibeiro.png",alt:"Felipe Ribeiro"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.feb65699.js.map
