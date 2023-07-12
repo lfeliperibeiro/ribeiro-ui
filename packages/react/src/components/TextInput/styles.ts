@@ -19,38 +19,31 @@ export const TextInputContainer = styled('div', {
   },
 })
 
-export const InputLabel = styled('label', {
-  boxSizing: 'border-box',
-  width: '100%',
-  position: 'absolute',
+export const Prefix = styled('span', {
   fontFamily: '$default',
-  top: '35%',
-  left: '1.25rem',
   fontSize: '$sm',
-  cursor: 'text',
   color: '$gray400',
-  transition: 'font 0.1s ease, top 0.1s ease, transform 0.1s ease',
+  fontWeight: 'regular',
 })
 
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
   color: '$white',
-  fontWeight: '$regular',
+  fontWeight: 'regular',
   background: 'transparent',
   border: 0,
   width: '100%',
-  height: '$7',
-  boxSizing: 'border-box',
-  outline: 'none',
 
-  [`&:focus ~ ${InputLabel}, &:not(:focus):valid ~ ${InputLabel}`]: {
+  '&:focus': {
     outline: 0,
-    fontSize: '$xxs',
-    top: '5px',
   },
 
   '&:disabled': {
     cursor: 'not-allowed',
+  },
+
+  '&::placeholder': {
+    color: '$gray400',
   },
 })
