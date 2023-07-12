@@ -6,7 +6,7 @@ export const TextInputContainer = styled('div', {
   boxSizing: 'border-box',
   border: '2px solid $gray900',
   display: 'flex',
-  alignItems: 'center',
+  alribeiroms: 'center',
 
   variants: {
     size: {
@@ -20,7 +20,7 @@ export const TextInputContainer = styled('div', {
   },
 
   '&:has(input:focus)': {
-    borderColor: '$ignite300',
+    borderColor: '$ribeiro300',
   },
 
   '&:has(input:disabled)': {
