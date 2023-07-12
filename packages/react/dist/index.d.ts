@@ -22,11 +22,11 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -231,11 +231,11 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -440,11 +440,11 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -647,11 +647,11 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -861,11 +861,11 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -1068,11 +1068,11 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -1277,11 +1277,11 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -1483,11 +1483,11 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -1705,11 +1705,11 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -1918,11 +1918,11 @@ declare const styled: <Type extends _stitches_react_types_util.Function | keyof 
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -2123,11 +2123,11 @@ declare const css: <Composers extends (string | _stitches_react_types_util.Funct
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -2343,11 +2343,11 @@ declare const globalCss: <Styles extends {
             gray700: string;
             gray800: string;
             gray900: string;
-            ribeiro300: string;
-            ribeiro500: string;
-            ribeiro700: string;
-            ribeiro900: string;
-            test: string;
+            black900: string;
+            violet500: string;
+            violet200: string;
+            brown200: string;
+            brown500: string;
         };
         fontSizes: {
             xxs: string;
@@ -2546,11 +2546,11 @@ declare const globalCss: <Styles extends {
         gray700: string;
         gray800: string;
         gray900: string;
-        ribeiro300: string;
-        ribeiro500: string;
-        ribeiro700: string;
-        ribeiro900: string;
-        test: string;
+        black900: string;
+        violet500: string;
+        violet200: string;
+        brown200: string;
+        brown500: string;
     };
     fontSizes: {
         xxs: string;
@@ -2750,11 +2750,11 @@ declare const keyframes: (style: {
             gray700: string;
             gray800: string;
             gray900: string;
-            ribeiro300: string;
-            ribeiro500: string;
-            ribeiro700: string;
-            ribeiro900: string;
-            test: string;
+            black900: string;
+            violet500: string;
+            violet200: string;
+            brown200: string;
+            brown500: string;
         };
         fontSizes: {
             xxs: string;
@@ -2961,11 +2961,11 @@ declare const theme: string & {
         gray700: _stitches_react_types_theme.Token<"gray700", string, "colors", "">;
         gray800: _stitches_react_types_theme.Token<"gray800", string, "colors", "">;
         gray900: _stitches_react_types_theme.Token<"gray900", string, "colors", "">;
-        ribeiro300: _stitches_react_types_theme.Token<"ribeiro300", string, "colors", "">;
-        ribeiro500: _stitches_react_types_theme.Token<"ribeiro500", string, "colors", "">;
-        ribeiro700: _stitches_react_types_theme.Token<"ribeiro700", string, "colors", "">;
-        ribeiro900: _stitches_react_types_theme.Token<"ribeiro900", string, "colors", "">;
-        test: _stitches_react_types_theme.Token<"test", string, "colors", "">;
+        black900: _stitches_react_types_theme.Token<"black900", string, "colors", "">;
+        violet500: _stitches_react_types_theme.Token<"violet500", string, "colors", "">;
+        violet200: _stitches_react_types_theme.Token<"violet200", string, "colors", "">;
+        brown200: _stitches_react_types_theme.Token<"brown200", string, "colors", "">;
+        brown500: _stitches_react_types_theme.Token<"brown500", string, "colors", "">;
     };
     fontSizes: {
         xxs: _stitches_react_types_theme.Token<"xxs", string, "fontSizes", "">;
@@ -3035,11 +3035,11 @@ declare const createTheme: <Argument0 extends string | ({
         gray700?: string | number | boolean | undefined;
         gray800?: string | number | boolean | undefined;
         gray900?: string | number | boolean | undefined;
-        ribeiro300?: string | number | boolean | undefined;
-        ribeiro500?: string | number | boolean | undefined;
-        ribeiro700?: string | number | boolean | undefined;
-        ribeiro900?: string | number | boolean | undefined;
-        test?: string | number | boolean | undefined;
+        black900?: string | number | boolean | undefined;
+        violet500?: string | number | boolean | undefined;
+        violet200?: string | number | boolean | undefined;
+        brown200?: string | number | boolean | undefined;
+        brown500?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3113,11 +3113,11 @@ declare const createTheme: <Argument0 extends string | ({
         gray700?: string | number | boolean | undefined;
         gray800?: string | number | boolean | undefined;
         gray900?: string | number | boolean | undefined;
-        ribeiro300?: string | number | boolean | undefined;
-        ribeiro500?: string | number | boolean | undefined;
-        ribeiro700?: string | number | boolean | undefined;
-        ribeiro900?: string | number | boolean | undefined;
-        test?: string | number | boolean | undefined;
+        black900?: string | number | boolean | undefined;
+        violet500?: string | number | boolean | undefined;
+        violet200?: string | number | boolean | undefined;
+        brown200?: string | number | boolean | undefined;
+        brown500?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         xxs?: string | number | boolean | undefined;
@@ -3198,11 +3198,11 @@ declare const config: {
             gray700: string;
             gray800: string;
             gray900: string;
-            ribeiro300: string;
-            ribeiro500: string;
-            ribeiro700: string;
-            ribeiro900: string;
-            test: string;
+            black900: string;
+            violet500: string;
+            violet200: string;
+            brown200: string;
+            brown500: string;
         };
         fontSizes: {
             xxs: string;

@@ -8,9 +8,10 @@ export const Button = styled('button', {
   fontWeight: '$medium',
   fontFamily: '$default',
   textAlign: 'center',
+  alignItems: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
-  padding: '0 $4',
+  padding: '0 $6',
 
   display: 'flex',
   alribeiroms: 'center',
@@ -36,10 +37,10 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$ribeiro500',
+        background: '$brown500',
 
         '&:not(:disabled):hover': {
-          background: '$ribeiro300',
+          background: '$brown200',
         },
 
         '&:disabled': {
@@ -48,11 +49,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$ribeiro300',
-        border: '2px solid $ribeiro500',
+        color: '$brown500',
+        border: '2px solid $brown500',
 
         '&:not(:disabled):hover': {
-          background: '$ribeiro500',
+          background: '$brown200',
           color: '$white',
         },
 

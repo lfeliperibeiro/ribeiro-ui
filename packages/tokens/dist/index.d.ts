@@ -9,11 +9,11 @@ declare const colors: {
     gray700: string;
     gray800: string;
     gray900: string;
-    ribeiro300: string;
-    ribeiro500: string;
-    ribeiro700: string;
-    ribeiro900: string;
-    test: string;
+    black900: string;
+    violet500: string;
+    violet200: string;
+    brown200: string;
+    brown500: string;
 };
 
 declare const space: {

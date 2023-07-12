@@ -42,11 +42,11 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
-  ribeiro300: "#00B37E",
-  ribeiro500: "#00875F",
-  ribeiro700: "#015F43",
-  ribeiro900: "#00291D",
-  test: "#fff"
+  black900: "#1A1423",
+  violet500: "#3D314A",
+  violet200: "#684756",
+  brown200: "#AB8476",
+  brown500: "#96705B"
 };
 var space = {
   1: "0.25rem",
@@ -217,8 +217,8 @@ var AvatarFallback = styled(Avatar.Fallback, {
   display: "flex",
   alribeiroms: "center",
   justifyContent: "center",
-  backgroundColor: "$gray600",
-  color: "$gray800",
+  backgroundColor: "$violet200",
+  color: "$violet500",
   svg: {
     width: "$6",
     height: "$6"
@@ -243,9 +243,10 @@ var Button = styled("button", {
   fontWeight: "$medium",
   fontFamily: "$default",
   textAlign: "center",
+  alignItems: "center",
   minWidth: 120,
   boxSizing: "border-box",
-  padding: "0 $4",
+  padding: "0 $6",
   display: "flex",
   alribeiroms: "center",
   justifyContent: "center",
@@ -265,19 +266,19 @@ var Button = styled("button", {
     variant: {
       primary: {
         color: "$white",
-        background: "$ribeiro500",
+        background: "$brown500",
         "&:not(:disabled):hover": {
-          background: "$ribeiro300"
+          background: "$brown200"
         },
         "&:disabled": {
           backgroundColor: "$gray200"
         }
       },
       secondary: {
-        color: "$ribeiro300",
-        border: "2px solid $ribeiro500",
+        color: "$brown500",
+        border: "2px solid $brown500",
         "&:not(:disabled):hover": {
-          background: "$ribeiro500",
+          background: "$brown200",
           color: "$white"
         },
         "&:disabled": {
@@ -426,12 +427,12 @@ var CheckboxContainer = styled(Checkbox.Root, {
   display: "flex",
   justifyContent: "center",
   alribeiroms: "center",
-  border: "2px solid $gray900",
+  border: "2px solid $violet500",
   '&[data-state="checked"]': {
-    backgroundColor: "$ribeiro300"
+    backgroundColor: "$violet200"
   },
   '&:focus, &[data-state="checked"]': {
-    border: "2px solid $ribeiro300"
+    border: "2px solid $violet200"
   }
 });
 var slideIn = keyframes({
@@ -490,7 +491,7 @@ var Step = styled("div", {
   variants: {
     active: {
       true: {
-        backgroundColor: "$gray100"
+        backgroundColor: "$violet200"
       }
     }
   }

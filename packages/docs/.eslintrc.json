@@ -1,3 +1,6 @@
 {
-  "extends": "@ribeiro-ui/eslint-config"
+  "extends": [
+    "@ribeiro-ui/eslint-config",
+    "plugin:storybook/recommended"
+  ]
 }

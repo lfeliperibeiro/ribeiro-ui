@@ -42,11 +42,11 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
-  ribeiro300: "#00B37E",
-  ribeiro500: "#00875F",
-  ribeiro700: "#015F43",
-  ribeiro900: "#00291D",
-  test: "#fff"
+  black900: "#1A1423",
+  violet500: "#3D314A",
+  violet200: "#684756",
+  brown200: "#AB8476",
+  brown500: "#96705B"
 };
 
 // src/space.ts
